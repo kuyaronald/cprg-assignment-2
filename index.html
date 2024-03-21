@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/styles/assignment2.css">
+  <script defer src="assignment2.js"></script>
+  <script src="https://kit.fontawesome.com/154e02f8d9.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <title>LAB 4 ASSIGNMENT</title>
+</head>
+<body>
+  <section class="hero-container">
+
+    <img class="hero-image" src="assets/shoes1.jpg" alt= "a pair of white shoes and a gold necklance hanging out of one of the shoes">
+    <div class="hero-content">
+        <h1 class="hero-header">Sole Chronicles</h1>
+        <p class="hero-subheader"> Your Ultimate Destination for Sneaker Stories and Culture, in collaboration with YYCSoldiers & Momentum Clothing Calgary</p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="content-container">
+        <h2 class="content-header">What are sneakers?</h2>
+        <p class="content-paragraph">Sneakers, also known as athletic shoes or trainers, are versatile footwear designed for comfort and performance during various physical activities. Originating from humble beginnings as functional sports gear, sneakers have evolved into a global fashion statement, symbolizing individuality, self-expression, and cultural significance. From classic designs to cutting-edge technology, sneakers embody a dynamic fusion of style, innovation, and personal identity, shaping trends and inspiring communities worldwide.</p>
+        <a href="https://en.wikipedia.org/wiki/Sneaker_collecting">
+        <button class="content-button">Learn More</button>
+        </a>
+        <img class="content-image" src="assets/shoes2.jpg" alt="A guy wearing black shorts holding a pair of black and red jordan shoes">
+    </div>
+</section>
+
+<section class="container">
+    <ul class="card-container">
+     <li class="card">
+        <img src="assets/jordan1.jpg" alt="a black and red high top jordan shoe also known as the bred jordan 1">
+        <div class="card-content">
+          <h3 class="subheader">
+            Nike
+          </h3>
+          <h4 class="header">
+            Jordan 1
+          </h4>
+          <p class="paragraph">
+            The Nike Air Jordan 1, introduced in 1985, revolutionized the sneaker industry as the first signature shoe for NBA superstar Michael Jordan. Its bold design, combined with Jordan's on-court prowess and rebellious persona, propelled it to iconic status in both sports and fashion culture.
+          </p>
+        </div> 
+        </li>
+     <li class="card">
+         <img src="assets/adidas-superstar.png" alt="a white shell toed sneaker with 3 black stripes on the side with gold accents also known as the adidas superstar">
+            <div class="card-content">
+              <h3 class="subheader">
+                Adidas
+              </h3>
+              <h4 class="header">
+                Adidas Superstar
+              </h4>
+              <p class="paragraph">
+                The Adidas Superstar, originating in 1969, quickly became an emblem of basketball culture before transcending into a global streetwear icon. Its distinctive shell-toe design and association with hip-hop and urban fashion have solidified its enduring legacy in footwear history.
+              </p>
+            </div> 
+            </li>
+     <li class="card">
+            <img src="assets/puma-suede.jpg" alt="black low top suede sneaker with a white accent also known as the puma suede">
+            <div class="card-content">
+                <h3 class="subheader">
+                Puma
+                </h3>
+                <h4 class="header">
+                 Puma Suede
+                </h4>
+                <p class="paragraph">
+                 The Puma Suede, introduced in 1968, emerged as a defining sneaker in the realm of sport and street fashion. Its luxurious suede upper and timeless silhouette have cemented its status as a symbol of classic style and urban authenticity for decades.
+                 </p>
+                </div> 
+        </li>
+     <li class="card">
+         <img src="assets/converse-allstar.png" alt="a black hightop sneaker with a big star detail on the side also know as the converse allstar">
+            <div class="card-content">
+            <h3 class="subheader">
+            Converse
+            </h3>
+             <h4 class="header">
+            Coverse Allstar
+            </h4>
+            <p class="paragraph">
+            The Converse All Star, debuting in 1917, stands as an enduring emblem of counterculture and casual style. Its simple canvas design and association with figures from basketball to rock 'n' roll have made it an iconic symbol of self-expression and individuality worldwide.
+            </p>
+            </div> 
+        </li>
+    </ul>
+  </section>
+
+
+<section class="accordion-container">
+    <h2 class="accordion-header"> Three fun facts about sneakers</h2>
+<section class="accordion-section">
+  <button class="accordion-button" onclick="toggleAccordion('section1')">
+      <i class="fas fa-shoe-prints"></i> BANNED BUT BELOVED
+  </button>
+  <div class="accordion-content" id="section1">
+      <p> In 1985, when Michael Jordan wore the black and red Air Jordan 1s on the court, the NBA fined him $5,000 per game for violating the league's uniform policy. Nike gladly covered the fines, turning the controversy into a marketing coup, sparking fervent demand for the Air Jordan line, and cementing sneaker culture's fusion of sports, style, and rebellion.</p>
+  </div>
+
+  <button class="accordion-button" onclick="toggleAccordion('section2')">
+      <i class="fas fa-shoe-prints"></i> STEPPING INTO HISTORY
+  </button>
+  <div class="accordion-content" id="section2">
+      <p>The Converse Chuck Taylor All Stars, first introduced in 1917, were the first sneakers to bear the name of a professional athlete. Basketball player Chuck Taylor, who joined Converse in 1921 as a salesman and ambassador, lent his name to the iconic shoe in 1932, forever changing the landscape of athletic endorsements.</p>
+  </div>
+
+  <button class="accordion-button" onclick="toggleAccordion('section3')">
+    <i class="fas fa-shoe-prints"></i> KICKS AND BEATS
+</button>
+<div class="accordion-content" id="section3">
+    <p>Sneaker culture and hip-hop have shared a symbiotic relationship since the 1980s, with rappers like Run-D.M.C. famously releasing the track "My Adidas" in 1986. This song not only celebrated the Adidas brand but also solidified the connection between sneaker culture and rap music, paving the way for countless collaborations and endorsements between sneaker brands and hip-hop artists.</p>
+</div>
+</section>
+</section>
+
+<div class="header-content">
+    <h2>The History of Sneaker Culture</h2>
+  </div>
+
+<section class="video-container">
+    <div class="video-content">
+      <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/AawIhU3ORK0"
+        frameborder="0" 
+        allowfullscreen
+      ></iframe>
+    </div>
+  </section>
+
+<footer class="footer-section">
+  <div class="footer-content">
+    <h2 class="footer-header"> Contact Us</h2>
+    <p class="footer-subheader">Love sneakers? Chat with us.</p>
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <p>&copy; <span id="currentYear"></span> Ronald Atutubo. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
